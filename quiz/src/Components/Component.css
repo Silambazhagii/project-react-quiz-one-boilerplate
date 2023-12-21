@@ -96,7 +96,7 @@ h1{
 
 .resBox{
     border-left: 7px solid #8686F3;
-    margin-left: 450px;
+    margin-left: 27%;
     text-align: center;
     background-color: white;
     height: 350px;
@@ -136,4 +136,25 @@ h1{
     color: #008001;
     border-top: 2px solid #008001;
     border-left: 2px solid #008001;
+}
+
+@media all and (max-width:1024px){
+    .op1, .op2, .op3, .op4{
+        font-size: 20px;
+        margin-left: 100px;
+        border: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        color: white;
+        width: 230px;
+        height: 48px;
+        background-color: #1EA1F1;
+        border-radius: 50px;
+    }
+    .resBox{
+        margin-left: 13%;
+    }
+
 }
